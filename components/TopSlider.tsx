@@ -1,0 +1,22 @@
+import React from 'react'
+
+function TopSlider() {
+  return (
+    <div className='flex justify-between items-center bg-yellow-400 border-y border-black py-10 lg:py-0 max-w-7xl mx-auto '>
+        <div className='px-10 space-y-5'>
+            <h1 className='text-6xl max-wx-xl font-serif'>
+                <span className='underline decoration-black decoration-4'>Medium</span> 
+                is a place to Write,Read and Connet
+            </h1>
+            <h2>
+                It is easy and free to post your thinking on any topic and connect with millions ofreaders
+            </h2>
+        </div>
+        <img className='hidden md:inline-flex h-32 lg:h-full'
+        src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png" 
+        alt="" />
+    </div>
+  )
+}
+
+export default TopSlider
